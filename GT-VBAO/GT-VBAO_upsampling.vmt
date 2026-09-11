@@ -1,0 +1,9 @@
+screenspace_general
+{
+	$pixshader "hbao_upsampling_ps30"
+	$vertexshader "pp_vs30"
+	
+	$basetexture "_rt_WPDepth"
+	$texture2 "_rt_softwaredepth_half"
+	$texture1 "_rt_HBAO"
+}

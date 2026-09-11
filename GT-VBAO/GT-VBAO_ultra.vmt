@@ -1,0 +1,11 @@
+screenspace_general
+{
+	$pixshader "hbao_ultra_ps30"
+	$vertexshader "hbao_vs30"
+	
+	$basetexture "_rt_WPDepth"
+	$texture2 "_rt_Bump"
+	
+	$copyalpha 1
+	$writealpha 1
+}
