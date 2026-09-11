@@ -1,0 +1,13 @@
+screenspace_general
+{
+	$pixshader "hbao_blury_combine_ps30"
+	$vertexshader "pp_vs30"
+	
+	$basetexture "_rt_HBAO_filter"
+	$texture1 "_rt_WPDepth"
+
+	$c0_x 1
+
+	$copyalpha 1
+	$writealpha 1
+}
